@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Resume Analyzer - SkillScan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <h1 class="logo">SkillScan</h1>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="analyze.html" class="active">Analyze</a>
+      <a href="login.html">Login</a>
+      <a href="signup.html">Signup</a>
+    </div>
+  </nav>
+
+  <div class="analyze-container">
+    <h2>AI Resume Analyzer</h2>
+    <p>Upload your resume file to get AI insights and skill analysis.</p>
+
+    <input type="file" id="fileInput" accept=".pdf,.doc,.docx" />
+    <button class="btn" id="analyzeBtn">Start Analysis</button>
+
+    <div class="file-info" id="fileInfo"></div>
+
+    <div class="progress-bar">
+      <div id="progress"></div>
+    </div>
+    <p id="statusText">No file uploaded yet.</p>
+
+    <div id="result" class="result-box hidden">
+      <h3>Resume Analysis Report</h3>
+      <ul id="resultList"></ul>
+    </div>
+  </div>
+
+  <footer>© 2025 SkillScan. All rights reserved.</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
