@@ -31,4 +31,11 @@ SkillScan/
  ├── analyze.html      # Resume analysis page  
  ├── style.css         # Styling file  
  └── script.js         # JavaScript logic
+
+ 
+ ## 🔮 Future Improvements
+- Integrate AI API for automatic resume analysis
+- Add database for saving user sessions
+- Improve skill suggestion accuracy
+
   
